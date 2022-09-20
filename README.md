@@ -1,6 +1,4 @@
 # OpenAlex-CitedReferences
-Use the OpenAlex API to pull and analyze cited references
-
 This project uses Python, Jupyter Notebooks, and the OpenAlex API to collect, clean, and examine open data on cited references. 
 
 Research questions include: 
