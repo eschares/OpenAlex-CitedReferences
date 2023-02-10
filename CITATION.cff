@@ -21,15 +21,18 @@ keywords:
   - "citation analysis"
   - ROR
   - DOI
+
+
 references:
   - authors:
-    - family-names: Priem
-      given-names: Jason
-    - family-names: Piwowar
-      given-names: Heather
-    - family-names: Orr
-      given-names: Richard
-  title: "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts."
-  doi: 10.48550/arXiv.2205.01833
-  url: "https://arxiv.org/abs/2205.01833"
-  year: 2022
+      - family-names: Priem
+        given-names: Jason
+      - family-names: Piwowar
+        given-names: Heather
+      - family-names: Orr
+        given-names: Richard
+    title: "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts."
+    doi: 10.48550/arXiv.2205.01833
+    url: "https://arxiv.org/abs/2205.01833"
+    year: 2022
+    type: software
