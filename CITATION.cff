@@ -1,0 +1,37 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: "OpenAlex-CitedReferences"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - given-names: Eric
+    family-names: Schares
+    email: eschares@iastate.edu
+    affiliation: "Iowa State University"
+    orcid: "https://orcid.org/0000-0002-6292-8221"
+  - given-names: Sandra
+    family-names: Mierz
+    orcid: "https://orcid.org/0000-0002-8913-9011"
+repository-code: "https://github.com/eschares/OpenAlex-CitedReferences"
+abstract: "Use the OpenAlex API to pull and analyze cited references"
+keywords:
+  - OpenAlex
+  - "citation analysis"
+  - ROR
+  - DOI
+
+references:
+  - authors:
+      - family-names: Priem
+        given-names: Jason
+      - family-names: Piwowar
+        given-names: Heather
+      - family-names: Orr
+        given-names: Richard
+    title: "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts."
+    doi: 10.48550/arXiv.2205.01833
+    url: "https://arxiv.org/abs/2205.01833"
+    year: 2022
+    type: software
