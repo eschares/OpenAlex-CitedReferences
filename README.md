@@ -1,4 +1,8 @@
 # OpenAlex-CitedReferences
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/eschares/OpenAlex-CitedReferences/main)
+[![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eschares/OpenAlex-CitedReferences)
+
 This project uses Python, Jupyter Notebooks, and the OpenAlex API to collect, clean, and examine open data on cited references. 
 
 Research questions include: 
