@@ -10,4 +10,4 @@ Research questions include:
 - What years are those cited references from, and when was the reference made?
 - Does the usage justify paying for backfile access to a journal, or do our researchers tend to use more recent content?
 
-![Prism drawing of an article with reference list, refracted rainbows coming out of references section](assets/prism.png)
+![Prism drawing of an article with reference list, refracted rainbows coming out of references section](assets/prism.jpg)
