@@ -68,7 +68,7 @@ If everything went well, a new tab in your browser should pop up showing you the
 ### IDE
 Many integrated development environments also support running Jupyter notebooks out of the box or via a plugin. If you have one installed, you may want to consult its docs or marketplace.
 
-## :beetle: Known bugs
+## :ant: Known bugs
 The OpenAlex API is constantly evolving and so executing the notebooks at different points in time will yield different results and sometimes bugs or errors in the data gathering and processing. To be as transparent as possible, we will list problems that arise when executing the notebooks here as we become aware of them:
 
 ### 2023-04-13
