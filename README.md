@@ -16,18 +16,18 @@ We can use this information as we make journal cancellation and renewal decision
   <img src="assets/prism.png" alt="Prism drawing of an article with reference list, refracted rainbows coming out of references section" width="700px">
 </div>
 
-## :triangular_ruler: Structure
+## :building_construction: Structure
 This repository contains two main folders:
 
-* **`notebooks`**: This folder contains Jupyter notebooks that gather, process and analyze the input data. These notebooks contain Python code and markdown cells that describe the data processing steps and results.
-  * The first notebook `1-Pull_the_data_OpenAlex-citedreferences.ipynb` presents an overview of the data collection process using the OpenAlex API. The data will be stored in local files within the `files` directory, so we can repeat and modify the data exploration without having to download the data again and again, saving us time and the OpenAlex API work.
+* **`notebooks`**: contains Jupyter notebooks that gather, process and analyze the input data. These notebooks contain Python code and markdown cells that describe the data processing steps and results.
+  * The first notebook `1-Pull_the_data_OpenAlex-citedreferences.ipynb` demonstrates how to use the OpenAlex API to extract publications which meet user-defined criteria and collect the cited references within. 
 
-  * The second notebook `2-Graph_and_explore_data_OpenAlex-citedreferences.ipynb` conducts an in-depth analysis of the collected data, illuminating various key aspects through insightful plots and analyses. By employing these exploratory techniques, the notebook effectively answers the research questions that were posed earlier.
+  * The second notebook `2-Graph_and_explore_data_OpenAlex-citedreferences.ipynb` provides a standardized set of graphs, data visualizations, and tables to explore and answer questions about cited reference patterns. 
 
-* **`files/ISU_2021_fullyear`**: This folder contains the input data gathered in the first notebook that is used in the second notebook:
-  * the file `publications.csv` stores the metadata about all publications from Iowa State University in 2021
-  * the file `references.csv` stores the metadata about all references listed in the publications' bibliographies
-  * the file `pub2ref.csv` stores the connections between the publications and their references
+* **`files/ISU_2021_fullyear`**: contains the data on cited references for Iowa State University in the year 2021 as a case study. It was gathered in January 2023 using the first notebook and subsequently used in the data exploration of the second notebook.
+  * `publications.csv` stores the metadata about all publications from Iowa State University in 2021
+  * `references.parquet` stores the metadata about all references listed in the publications' bibliographies
+  * `pub2ref.csv` stores the connections between the publications and their references
 
 ## :horse_racing: Running the notebooks
 
