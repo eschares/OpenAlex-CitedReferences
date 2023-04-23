@@ -2,12 +2,12 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/eschares/OpenAlex-CitedReferences/main)
 
+This project uses Python, [Jupyter Notebooks](https://jupyter.org/) and the [OpenAlex API](https://docs.openalex.org/) to collect, clean, and examine open data on cited references for Iowa State University in the year 2021.
+
+## :bulb: Motivation
 We would like to better understand how campus researchers use journal content.
 Analyzing which years our authors cite and how many papers they cite gives us a better feel for how content is being used.
-We can use this information as we make journal cancellation and renewal decisions.
-
-This project uses Python, [Jupyter Notebooks](https://jupyter.org/) and the [OpenAlex API](https://docs.openalex.org/) to collect, clean, and examine open data on cited references for Iowa State University in the year 2021.
-Research questions include:
+We can use this information as we make journal cancellation and renewal decisions. Research questions include:
 - How often do researchers from a university cite a particular journal?
 - What years are those cited references from, and when was the reference made?
 - Does the usage justify paying for backfile access to a journal, or do our researchers tend to use more recent content?
