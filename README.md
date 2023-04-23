@@ -69,10 +69,13 @@ If everything went well, a new tab in your browser should pop up showing you the
 Many integrated development environments also support running Jupyter notebooks out of the box or via a plugin. If you have one installed, you may want to consult its docs or marketplace.
 
 ## :ant: Known bugs
-The OpenAlex API is constantly evolving and so executing the notebooks at different points in time will yield different results and sometimes bugs or errors in the data gathering and processing. To be as transparent as possible, we will list problems that arise when executing the notebooks here as we become aware of them:
+OpenAlex is a very useful open scholarly database, but it is still evolving. As such, executing the notebooks at different points in time may yield different results, and bugs may appear which were not present in January 2023 when this data was downloaded and processed. To be as transparent as possible, we will list problems that arise when executing the notebooks here as we become aware of them:
 
-### 2023-04-13
-We noticed that there is a difference between retrieved and expected references. Some requests to the OpenAlex API fetching 50 references using the approach outlined in the [OurResearch blog](https://blog.ourresearch.org/fetch-multiple-dois-in-one-openalex-api-request/) did not return 50 entities but 49 or sometimes 48. We notified the OpenAlex support about it (support ID #238).
+### Some time soon
+The field `host_venue` of an OpenAlex work object is [deprecated](https://docs.openalex.org/api-entities/works/work-object#host_venue-deprecated). We use it to extract the publisher, journal and issn of each reference and publication. The notebook will have to be adapted to use the new field [`primary_location`](https://docs.openalex.org/api-entities/works/work-object#primary_location) instead.
 
 ### 2023-04-16
 We noticed that some references do not exist anymore in OpenAlex. For example the OpenAlex ID "W4362225795" is [referenced in other works](http://api.openalex.org/works?filter=cites:W4362225795), but [querying OpenAlex for the entity](http://api.openalex.org/works/W4362225795) results in a "404-not found" error.  We notified the OpenAlex support about it (support ID #241).
+
+### 2023-04-13
+We noticed that there is a difference between retrieved and expected references. Some requests to the OpenAlex API fetching 50 references using the approach outlined in the [OurResearch blog](https://blog.ourresearch.org/fetch-multiple-dois-in-one-openalex-api-request/) did not return 50 entities but 49 or sometimes 48. We notified the OpenAlex support about it (support ID #238).
